@@ -2,7 +2,7 @@ var users = {
   ludvignorling: "23748a760a56fef0665474c93957e7590b5e5c835730bb470e6bda5ad965846d"
 };
 
-var loggedIn = false;
+
 
 (function ($) {
     "use strict";
@@ -45,6 +45,7 @@ var loggedIn = false;
     $('.validate-form .input100').each(function(){
         $(this).focus(function(){
            hideValidate(this);
+           hideValidate1(this)
         });
     });
 
@@ -102,11 +103,12 @@ var loggedIn = false;
             //console.log(result256)
             //(console.log(users[uname1])
             if(result256 !== users[uname1]) {
-                showValidate1(pwd)
+                showValidate1(pwd)s
             } else {
                 hideValidate1(pwd)
-                loggedIn = true;
-                window.location.href = "https://youtube.com";
+                var main = document.getElementById("limiter");
+                main.innerHTML = '';
+
             }
         }
 
