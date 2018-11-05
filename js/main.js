@@ -103,7 +103,7 @@ var users = {
             //console.log(result256)
             //(console.log(users[uname1])
             if(result256 !== users[uname1]) {
-                showValidate1(pwd)s
+                showValidate1(pwd)
             } else {
                 hideValidate1(pwd)
                 var main = document.getElementById("limiter");
