@@ -1,15 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link rel="stylesheet" type="text/css" href="style.css">
-<title>JS methods</title>
-</head>
-<body>
-<script type="text/javascript">
-
 speaks = [
   {
     "name": "Alex",     //0
@@ -214,7 +202,3 @@ console.log(`Voice: ${voice.name} and Lang: ${voice.lang}`);
 msg.voiceURI = voice.name;
 msg.lang = voice.lang;
 speechSynthesis.speak(msg);
-</script>
-
-</body>
-</html>
