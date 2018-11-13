@@ -107,7 +107,7 @@ var users = {
             } else {
                 hideValidate1(pwd)
                 var main = document.getElementById("limiter");
-                main.innerHTML = '<a class="txt1" href="mailto:centralform.ansok@gmail.com">Om du har några ideer skicka klicka här ;)</a>';
+                main.innerHTML = '<a class="mailto" href="mailto:centralform.ansok@gmail.com">Om du har några ideer skicka klicka här ;)</a>';
 
             }
         }
