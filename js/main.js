@@ -1,5 +1,6 @@
 var users = {
-  ludvignorling: "23748a760a56fef0665474c93957e7590b5e5c835730bb470e6bda5ad965846d"
+  ludvignorling: "23748a760a56fef0665474c93957e7590b5e5c835730bb470e6bda5ad965846d",
+  williamgellerstam: "faf68244f8791ff0686989c7d2d37f985be917eff1b9b1905db7a349eb27860a"
 };
 
 
